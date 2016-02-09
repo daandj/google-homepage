@@ -14,7 +14,7 @@ nav {
   position: fixed;
   top: 0;
   left: 0;
-  right: 0
+  right: 0;
 }
 
 nav a {
@@ -27,6 +27,7 @@ nav li {
   padding: 10px 10px;
   font-weight: 300;
   font-size: 0.8em;
+  color: grey;
 }
 
 #profile-picture {
@@ -88,6 +89,7 @@ button {
   cursor: pointer;
   border-radius: 2px;
   transition: .2s;
+  outline: none;
 }
 
 button:hover {
@@ -95,4 +97,45 @@ button:hover {
   border: 1px solid;
   border-color: #888;
   box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.1);
+}
+
+/* Footer */
+
+footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #EEE;
+  padding-right: 10px;
+  font-weight: normal;
+  font-size: .8em;
+  color: black;
+}
+
+footer a {
+  text-decoration: none;
+  color: #888;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+footer ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+}
+
+#left-links {
+  float: left;
+}
+
+footer li {
+  padding-right: 20px;
+}
+
+#right-links {
+  float: right;
 }
