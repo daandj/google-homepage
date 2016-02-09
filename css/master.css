@@ -7,6 +7,43 @@ html, body {
   font-weight: bold;
 }
 
+/* Navbar */
+
+nav {
+  padding: 0 15px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0
+}
+
+nav a {
+  text-decoration: none;
+  color: inherit;
+}
+
+nav li {
+  list-style: none;
+  padding: 10px 10px;
+  font-weight: 300;
+  font-size: 0.8em;
+}
+
+#profile-picture {
+  padding: 0 10px;
+}
+
+#profile-picture img {
+  border-radius: 100px;
+}
+
+nav ul {
+  display: flex;
+  justify-content: flex-end;
+}
+
+/* Main body */
+
 #main {
   height: 100%;
   width: 100%;
